@@ -14,3 +14,4 @@
 -------------------------------
 [Course Link](https://www.linkedin.com/learning/programming-foundations-data-structures-2/)
 <br>[Preview Certificate]()
+![dataStructure](https://user-images.githubusercontent.com/103892504/188204931-1b0b78bb-b028-425e-a058-c302bc2394fc.png)
