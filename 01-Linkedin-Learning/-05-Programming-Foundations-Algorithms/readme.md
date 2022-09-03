@@ -12,3 +12,4 @@
 -------------------------------
 [Course Link](https://www.linkedin.com/learning/programming-foundations-algorithms/)
 <br>[Preview Certificate]()
+![Algorithms](https://user-images.githubusercontent.com/103892504/188270334-3053ba9f-bbc2-441f-b3ee-99ae6815a32d.png)
