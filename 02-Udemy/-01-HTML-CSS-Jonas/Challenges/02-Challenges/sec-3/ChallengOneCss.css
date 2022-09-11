@@ -1,0 +1,28 @@
+.first-header {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+}
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  /* font-weight: bold; */
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+.style {
+  list-style: square;
+}
