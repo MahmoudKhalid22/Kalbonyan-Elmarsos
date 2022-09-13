@@ -22,17 +22,17 @@
 ### Bankist
 
 - [Project-code](./Projects/Bankist)
-- [Live Demo]()
+- [Live Demo](https://bankist-msamra.netlify.app/)
 
 ### Bankist Site
 
 - [Project-code](./Projects/Bankist-Site)
-- [Live Demo]()
+- [Live Demo](https://bankist-site-msamra.netlify.app/)
 
 ### Mapty
 
 - [Project-code](./Projects/Mapty)
-- [Live Demo]()
+- [Live Demo](https://mapty-msamra.netlify.app/)
 
 ### Forkify
 
