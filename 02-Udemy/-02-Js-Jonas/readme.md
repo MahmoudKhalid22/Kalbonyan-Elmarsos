@@ -37,7 +37,7 @@
 ### Forkify
 
 - [Project-code](./Projects/Forkify)
-- [Live Demo]()
+- [Live Demo](https://msamra-forkify.netlify.app/)
 
 ---
 
