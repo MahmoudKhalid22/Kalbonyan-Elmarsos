@@ -10,7 +10,7 @@
 - [Live Demo](https://samra-weather-application.herokuapp.com/)
 ### Chat App
 - [Project-code](./Projects/Chat-App)
-- [Live Demo]()
+- [Live Demo](http://qura-chat-application.herokuapp.com/)
 
 ---
 ## Code
