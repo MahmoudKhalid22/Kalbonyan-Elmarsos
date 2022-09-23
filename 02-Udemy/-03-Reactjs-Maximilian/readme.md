@@ -21,8 +21,7 @@
 
 <br/>
 
-- [Section 6 Project Live Demo]()
-- [Section 7 Project Live Demo]()
+- [Section 6 && Section 7 Project Live Demo ](https://goals-app-mkhalid.netlify.app/)
 
 ### Section 8-9 Project
 
