@@ -51,7 +51,7 @@
 ### movies app(S14)
 
 - [Project-code](./Projects/movies-app)
-- [Live Demo]()
+- [Live Demo](https://movie-app-mkhalid.netlify.app/)
 
 ### Tasks app with firebase(S15)
 
