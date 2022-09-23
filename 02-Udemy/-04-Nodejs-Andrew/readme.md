@@ -6,7 +6,7 @@
 ### Task Manager API
 - [Project-code](./Projects/Task-Manager-API)
 ### Weather App
-- [Project-code](.https://github.com/MahmoudKhalid22/node3-weather-website)
+- ![Project-code](https://github.com/MahmoudKhalid22/node3-weather-website)
 - [Live Demo](https://samra-weather-application.herokuapp.com/)
 ### Chat App
 - ![Project-code](./Projects/Chat-App)
