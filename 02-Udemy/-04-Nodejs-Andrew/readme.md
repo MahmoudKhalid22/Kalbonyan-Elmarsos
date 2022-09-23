@@ -9,7 +9,7 @@
 - [Project-code](.https://github.com/MahmoudKhalid22/node3-weather-website)
 - [Live Demo](https://samra-weather-application.herokuapp.com/)
 ### Chat App
-- [Project-code](./Projects/Chat-App)
+- ![Project-code](./Projects/Chat-App)
 - [Live Demo](http://qura-chat-application.herokuapp.com/)
 
 ---
