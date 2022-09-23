@@ -26,7 +26,7 @@
 ### Section 8-9 Project
 
 - [Project-code](./Projects/section-8-9-project)
-- [Live Demo]()
+- [Live Demo](https://sec-8-9-mkhalid.netlify.app/)
 
 ### Login-app (S10)
 
