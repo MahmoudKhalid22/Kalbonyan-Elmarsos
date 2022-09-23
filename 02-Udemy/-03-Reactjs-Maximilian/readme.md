@@ -66,7 +66,7 @@
 ### Order-food App (S17)
 
 - [Project Code](./Projects/order-food-app/S17-project/)
-- [Final Project Live Live Demo]()
+- [Final Project Live Live Demo](https://order-food-app-17.netlify.app/)
 
 ### Redux Counter(S18)
 
