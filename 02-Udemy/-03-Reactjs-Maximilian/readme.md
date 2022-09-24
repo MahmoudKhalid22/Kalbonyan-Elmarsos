@@ -116,7 +116,7 @@
 ### Section 29 Project
 
 - [Project-code](./Projects/Section-29/)
-- [Live Demo]()
+- [Live Demo](https://sec-29-mkhalid.netlify.app/)
 
 ---
 
