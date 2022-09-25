@@ -106,7 +106,7 @@
 ### todo-app-TS(S27)
 
 - [Project-code](./Projects/todo-app-TS)
-- [Live Demo]()
+- [Live Demo](https://todo-app-mkhalid.netlify.app/)
 
 ### ingredients-app(S28)
 
