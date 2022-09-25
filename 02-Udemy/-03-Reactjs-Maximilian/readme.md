@@ -86,7 +86,7 @@
 ### Authentication-page(S22)
 
 - [Project-code](./Projects/Authentication-page)
-- [Live Demo]()
+- [Live Demo](https://auth-app-mkhalid.netlify.app/)
 
 ### Meetsup app(S23)
 
