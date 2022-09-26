@@ -1,5 +1,5 @@
 import { uiActions } from "./ui-slice";
-import { cartActions } from "./cart-slice";
+import cartActions from "./cart-slice";
 
 export const fetchCartData = () => {
   return async (dispatch) => {
