@@ -81,7 +81,7 @@
 ### Quotes app(S20)
 
 - [Project-code](./Projects/quotes-app)
-- [Live Demo](https://quotes-app-mkhalid.netlify.app/)
+- [Live Demo](https://quotesappnewmkhalid.netlify.app/)
 
 ### Authentication-page(S22)
 
