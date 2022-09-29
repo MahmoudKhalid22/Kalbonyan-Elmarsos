@@ -13,17 +13,17 @@
 
 # 1-App
 ![pic 1](https://user-images.githubusercontent.com/103892504/193058350-46de814b-5bb8-4eba-83bb-14edbd6a5078.png)
-# The app entry 
-![pic 2](https://user-images.githubusercontent.com/103892504/193058379-42e2d85b-dd09-4be5-8e7c-57d44c64536f.png)
 # you should signup for the first time
-![pic 3](https://user-images.githubusercontent.com/103892504/193058469-4f6a45e8-45ab-40cb-b116-40c01c1d1243.png)
+![pic 2](https://user-images.githubusercontent.com/103892504/193058379-42e2d85b-dd09-4be5-8e7c-57d44c64536f.png)
 # you will find a verfication message at your email
-![pic 4](https://user-images.githubusercontent.com/103892504/193058513-c57911cd-5c82-4dac-9ab7-04474821aa22.png)
+![pic 3](https://user-images.githubusercontent.com/103892504/193058469-4f6a45e8-45ab-40cb-b116-40c01c1d1243.png)
 # then you verivy with your email
+![pic 4](https://user-images.githubusercontent.com/103892504/193058513-c57911cd-5c82-4dac-9ab7-04474821aa22.png)
+#  you can create a new note from the home page
 ![pic 5](https://user-images.githubusercontent.com/103892504/193058734-9d3b42ec-3dea-4636-b830-bb560abac955.png)
-# you can create a new note from the home page
-![pic 6](https://user-images.githubusercontent.com/103892504/193058763-f0c75266-4f06-4a13-9a2a-a9616dc60530.png)
 # you will find all of notes at the home page
+![pic 6](https://user-images.githubusercontent.com/103892504/193058763-f0c75266-4f06-4a13-9a2a-a9616dc60530.png)
+# 
 ![pic 7-1](https://user-images.githubusercontent.com/103892504/193059712-78d25767-d88b-4449-93f8-a7d7bd161b44.png)
 # you can modify and save your notes or delete them]
 ![pic 7-2](https://user-images.githubusercontent.com/103892504/193060205-1f592b79-90d1-495a-91b5-8b9686d34c35.png)
