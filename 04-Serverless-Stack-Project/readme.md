@@ -24,7 +24,7 @@
 ![pic 6](https://user-images.githubusercontent.com/103892504/193058763-f0c75266-4f06-4a13-9a2a-a9616dc60530.png)
 # 
 ![pic 7-1](https://user-images.githubusercontent.com/103892504/193059712-78d25767-d88b-4449-93f8-a7d7bd161b44.png)
-# you can modify and save your notes or delete them]
+# you can modify and save your notes or delete them
 ![pic 7-2](https://user-images.githubusercontent.com/103892504/193060205-1f592b79-90d1-495a-91b5-8b9686d34c35.png)
 # here is some setting
 ![pic 7-3](https://user-images.githubusercontent.com/103892504/193060570-39b83ac5-fd40-4aa9-96d3-21153dee8bbf.png)
