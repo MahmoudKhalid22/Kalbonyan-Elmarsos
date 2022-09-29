@@ -17,7 +17,7 @@
 ![pic 2](https://user-images.githubusercontent.com/103892504/193058379-42e2d85b-dd09-4be5-8e7c-57d44c64536f.png)
 # you will find a verfication message at your email
 ![pic 3](https://user-images.githubusercontent.com/103892504/193058469-4f6a45e8-45ab-40cb-b116-40c01c1d1243.png)
-# then you verivy with your email
+# then you verify with your email
 ![pic 4](https://user-images.githubusercontent.com/103892504/193058513-c57911cd-5c82-4dac-9ab7-04474821aa22.png)
 #  you can create a new note from the home page
 ![pic 5](https://user-images.githubusercontent.com/103892504/193058734-9d3b42ec-3dea-4636-b830-bb560abac955.png)
