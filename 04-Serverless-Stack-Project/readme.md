@@ -20,7 +20,7 @@
 ![pic 4](https://user-images.githubusercontent.com/103892504/193058513-c57911cd-5c82-4dac-9ab7-04474821aa22.png)
 # then you verify with your email
 ![pic 5](https://user-images.githubusercontent.com/103892504/193058734-9d3b42ec-3dea-4636-b830-bb560abac955.png)
-# you will find all of notes at the home page
+# you can create a note 
 ![pic 6](https://user-images.githubusercontent.com/103892504/193058763-f0c75266-4f06-4a13-9a2a-a9616dc60530.png)
 # 
 ![pic 7-1](https://user-images.githubusercontent.com/103892504/193059712-78d25767-d88b-4449-93f8-a7d7bd161b44.png)
