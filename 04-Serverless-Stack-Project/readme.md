@@ -28,11 +28,10 @@
 ![pic 7-2](https://user-images.githubusercontent.com/103892504/193060205-1f592b79-90d1-495a-91b5-8b9686d34c35.png)
 # here is some setting
 ![pic 7-3](https://user-images.githubusercontent.com/103892504/193060570-39b83ac5-fd40-4aa9-96d3-21153dee8bbf.png)
-#  finally,after logoutting you will returnand you should login
 ![pic 8](https://user-images.githubusercontent.com/103892504/193059782-6bc44f11-56f9-4112-852e-99c606c9dc91.png)
-# 
+ #  finally,after logoutting you will returnand you should login
 ![pic 9](https://user-images.githubusercontent.com/103892504/193059805-08e2ab43-c071-4e0b-87fc-9e0b5a880f5f.png)
-# 
+
 
 
 ## Features
