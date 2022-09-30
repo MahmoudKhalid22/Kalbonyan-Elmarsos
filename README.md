@@ -47,14 +47,11 @@
 ![0%](https://progress-bar.dev/0/?title=Done)
 <br />
 ## JavaScript - Select one of these 2 courses to complete
-- [ ]  `in progress` `29h 30m` - 13 - [The Modern JavaScript Bootcamp](./02-Udemy/-02-Js-Andrew)
 - [x]  `done` `69h` - 13 - [The Complete JavaScript Course 2022: From Zero to Expert!](./02-Udemy/-02-Js-Jonas)
 ## ReactJs - Select one of these 2 courses to complete
 - [x]  `done` `48h` - 14 - [React - The Complete Guide (incl Hooks, React Router, Redux)](./02-Udemy/-03-Reactjs-Maximilian)
-- [ ]  `in progress` `39h` - 14 - [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](/02-Udemy/-03-Reactjs-ZTM)
 ## NodeJs - Select one of these 2 courses to complete
 - [x] `done` `35h` - 15 - [The Complete Node.js Developer Course (3rd Edition)](/02-Udemy/-04-Nodejs-Andrew)
-- [ ]  `in progress` `46h` - 15 - [Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more)](./02-Udemy/-04-Nodejs-ZTM)
 
 <!--<img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-157h30m-blue"> -->
 <br />
@@ -65,7 +62,7 @@
 <span id="AWS"></span>
 # Learn How to Deploy your web applications with Cloud Provider (AWS)
 ![0%](https://progress-bar.dev/0/?title=Done)
-- [ ]  `in progress` `16h` - 16 - [AWS Certified Cloud Practitioner (CLF-C01)](03-aCloudGuru/AWS%20Certified%20Cloud%20Practitioner%20(CLF-C01)/)
+- [x]  `done` `16h` - 16 - [AWS Certified Cloud Practitioner (CLF-C01)](03-aCloudGuru/AWS%20Certified%20Cloud%20Practitioner%20(CLF-C01)/)
 - [ ]  `in progress` `42h` - 17 - [AWS Certified Solutions Architect Associate (SAA-C02)](03-aCloudGuru/AWS%20Certified%20Solutions%20Architect%20Associate%20(SAA-C02))
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-58h-blue">
@@ -77,6 +74,6 @@
 
 
 # Learn How to Make serverless web applications
-![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] `in progress` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
+![100%](https://progress-bar.dev/0/?title=Done)
+- [x] `done` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
 
