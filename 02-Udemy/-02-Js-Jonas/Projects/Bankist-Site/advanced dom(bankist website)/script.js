@@ -11,7 +11,30 @@ const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
 
-///////////////////////////////////////
+const menuIcon = document.querySelector('.header .menu');
+const closeIcon = document.querySelector('.header .close');
+const menuItems = document.querySelector('.header .nav__links');
+const preloader = document.querySelector('.preloader');
+
+//preloader
+window.addEventListener('load', () => {
+  preloader.classList.add('hide-preloader');
+});
+
+// Header
+
+menuIcon.addEventListener('click', () => {
+  menuItems.style.display = 'block';
+  menuIcon.style.display = 'none';
+  closeIcon.style.display = 'block';
+});
+closeIcon.addEventListener('click', () => {
+  menuItems.style.display = 'none';
+  menuIcon.style.display = 'block';
+  closeIcon.style.display = 'none';
+});
+
+/////////////////////////////////
 // Modal window
 
 const openModal = function (e) {
@@ -35,45 +58,45 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
-///////////////////////////////////////
+// ///////////////////////////////////////
 // Button scrolling
 btnScrollTo.addEventListener('click', function (e) {
   const s1coords = section1.getBoundingClientRect();
-  console.log(s1coords);
+  // console.log(s1coords);
 
-  console.log(e.target.getBoundingClientRect());
+  // console.log(e.target.getBoundingClientRect());
 
-  console.log('Current scroll (X/Y)', window.pageXOffset, window.pageYOffset);
+  // console.log('Current scroll (X/Y)', window.pageXOffset, window.pageYOffset);
 
-  console.log(
-    'height/width viewport',
-    document.documentElement.clientHeight,
-    document.documentElement.clientWidth
-  );
-
-  // Scrolling
-  // window.scrollTo(
-  //   s1coords.left + window.pageXOffset,
-  //   s1coords.top + window.pageYOffset
+  // console.log(
+  //   'height/width viewport',
+  //   document.documentElement.clientHeight,
+  //   document.documentElement.clientWidth
   // );
 
-  // window.scrollTo({
-  //   left: s1coords.left + window.pageXOffset,
-  //   top: s1coords.top + window.pageYOffset,
-  //   behavior: 'smooth',
-  // });
+  // Scrolling
+  window.scrollTo(
+    s1coords.left + window.pageXOffset,
+    s1coords.top + window.pageYOffset
+  );
+
+  window.scrollTo({
+    left: s1coords.left + window.pageXOffset,
+    top: s1coords.top + window.pageYOffset,
+    behavior: 'smooth',
+  });
 
   section1.scrollIntoView({ behavior: 'smooth' });
 });
 
-///////////////////////////////////////
+// ///////////////////////////////////////
 // Page navigation
 
 // document.querySelectorAll('.nav__link').forEach(function (el) {
 //   el.addEventListener('click', function (e) {
 //     e.preventDefault();
 //     const id = this.getAttribute('href');
-//     console.log(id);
+//     // console.log(id);
 //     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
 //   });
 // });
@@ -84,17 +107,19 @@ btnScrollTo.addEventListener('click', function (e) {
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   e.preventDefault();
 
-  // Matching strategy
+  //   // Matching strategy
   if (e.target.classList.contains('nav__link')) {
     const id = e.target.getAttribute('href');
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
   }
 });
-///////////////////////////////////////
+// ///////////////////////////////////////
 // Tabbed component
 
 tabsContainer.addEventListener('click', function (e) {
   const clicked = e.target.closest('.operations__tab');
+  // console.log(e.target.closest('.operations__tab'));
+  // console.log(clicked);
 
   // Guard clause
   if (!clicked) return;
@@ -105,25 +130,28 @@ tabsContainer.addEventListener('click', function (e) {
 
   // Activate tab
   clicked.classList.add('operations__tab--active');
-
+  // console.log(clicked.dataset.tab);
   // Activate content area
   document
     .querySelector(`.operations__content--${clicked.dataset.tab}`)
     .classList.add('operations__content--active');
 });
 
-///////////////////////////////////////
+/////////////////////////////////
 // Menu fade animation
 const handleHover = function (e) {
   if (e.target.classList.contains('nav__link')) {
     const link = e.target;
     const siblings = link.closest('.nav').querySelectorAll('.nav__link');
     const logo = link.closest('.nav').querySelector('img');
-
+    // console.log(siblings);
+    // console.log(logo);
     siblings.forEach(el => {
       if (el !== link) el.style.opacity = this;
     });
     logo.style.opacity = this;
+    // console.log(this);
+    // console.log(e.target.dataset);
   }
 };
 
@@ -136,10 +164,10 @@ nav.addEventListener('mouseout', handleHover.bind(1));
 
 const header = document.querySelector('.header');
 const navHeight = nav.getBoundingClientRect().height;
-
+// console.log(navHeight);
 const stickyNav = function (entries) {
   const [entry] = entries;
-  // console.log(entry);
+  console.log(entry);
 
   if (!entry.isIntersecting) nav.classList.add('sticky');
   else nav.classList.remove('sticky');
@@ -153,7 +181,7 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 headerObserver.observe(header);
 
-///////////////////////////////////////
+// ///////////////////////////////////////
 // Reveal sections
 const allSections = document.querySelectorAll('.section');
 
@@ -213,7 +241,7 @@ const slider = function () {
   let curSlide = 0;
   const maxSlide = slides.length;
 
-  // Functions
+  // Functions;
   const createDots = function () {
     slides.forEach(function (_, i) {
       dotContainer.insertAdjacentHTML(

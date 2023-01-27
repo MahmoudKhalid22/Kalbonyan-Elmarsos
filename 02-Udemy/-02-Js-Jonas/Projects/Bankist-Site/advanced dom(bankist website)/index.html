@@ -11,12 +11,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Bankist | When Banking meets Minimalist</title>
+    <link rel="stylesheet" href="quieries.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 
-    <script defer src="script.js"></script>
+    <title>Bankist | When Banking meets Minimalist</title>
   </head>
   <body>
-    <header class="header">
+    <div class="preloader">
+      <img src="preloader.gif" alt="preloader">
+    </div>
+     <header class="header">
       <nav class="nav">
         <img
           src="img/logo.png"
@@ -25,7 +29,10 @@
           id="logo"
           designer="Jonas"
           data-version-number="3.0"
-        />
+        />  
+        <iconify-icon class="menu" icon="material-symbols:menu-rounded"></iconify-icon>
+        <iconify-icon class="close" icon="mdi:alpha-x-circle-outline"></iconify-icon>
+
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -45,25 +52,26 @@
       </nav>
 
       <div class="header__title">
-        <!-- <h1 onclick="alert('HTML alert')"> -->
-        <h1>
+        <h1 onclick="alert('HTML alert')">
+     <h1>
           When
-          <!-- Green highlight effect -->
-          <span class="highlight">banking</span>
-          meets<br />
-          <span class="highlight">minimalist</span>
-        </h1>
-        <h4>A simpler banking experience for a simpler life.</h4>
-        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
-        <img
+          Green highlight effect
+    <span class="highlight">banking</span>
+    meets<br />
+    <span class="highlight">minimalist</span>
+    </h1>
+    <h4>A simpler banking experience for a simpler life.</h4>
+    <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+    <img
           src="img/hero.png"
           class="header__img"
           alt="Minimalist bank items"
         />
-      </div>
+    </div>
     </header>
+    
 
-    <section class="section" id="section--1">
+     <section class="section" id="section--1"> 
       <div class="section__title">
         <h2 class="section__description">Features</h2>
         <h3 class="section__header">
@@ -132,16 +140,15 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="section" id="section--2">
+     <section class="section" id="section--2">
       <div class="section__title">
         <h2 class="section__description">Operations</h2>
         <h3 class="section__header">
           Everything as simple as possible, but no simpler.
         </h3>
       </div>
-
       <div class="operations">
         <div class="operations__tab-container">
           <button
@@ -157,6 +164,8 @@
             <span>03</span>Instant Closing
           </button>
         </div>
+           
+
         <div
           class="operations__content operations__content--1 operations__content--active"
         >
@@ -175,7 +184,7 @@
             aliquip ex ea commodo consequat.
           </p>
         </div>
-
+  
         <div class="operations__content operations__content--2">
           <div class="operations__icon operations__icon--2">
             <svg>
@@ -192,6 +201,7 @@
             anim id est laborum.
           </p>
         </div>
+        
         <div class="operations__content operations__content--3">
           <div class="operations__icon operations__icon--3">
             <svg>
@@ -209,8 +219,7 @@
           </p>
         </div>
       </div>
-    </section>
-
+    </section> 
     <section class="section" id="section--3">
       <div class="section__title section__title--testimonials">
         <h2 class="section__description">Not sure yet?</h2>
@@ -218,6 +227,7 @@
           Millions of Bankists are already making their lifes simpler.
         </h3>
       </div>
+  
 
       <div class="slider">
         <div class="slide">
@@ -238,7 +248,7 @@
             </address>
           </div>
         </div>
-
+ 
         <div class="slide">
           <div class="testimonial">
             <h5 class="testimonial__header">
@@ -284,8 +294,8 @@
         <button class="slider__btn slider__btn--right">&rarr;</button>
         <div class="dots"></div>
       </div>
-    </section>
-
+    </section> 
+  
     <section class="section section--sign-up">
       <div class="section__title">
         <h3 class="section__header">
@@ -294,9 +304,9 @@
         </h3>
       </div>
       <button class="btn btn--show-modal">Open your free account today!</button>
-    </section>
+    </section> 
 
-    <footer class="footer">
+     <footer class="footer">
       <ul class="footer__nav">
         <li class="footer__item">
           <a class="footer__link" href="#">About</a>
@@ -327,11 +337,11 @@
           class="footer__link twitter-link"
           target="_blank"
           href="https://twitter.com/jonasschmedtman"
-          >Jonas Schmedtmann</a
+          >Mahmoud Khalid</a
         >. Use for learning or your portfolio. Don't use to teach. Don't claim
         as your own product.
       </p>
-    </footer>
+    </footer> 
 
     <div class="modal hidden">
       <button class="btn--close-modal">&times;</button>
@@ -348,9 +358,10 @@
         <input type="email" />
         <button class="btn">Next step &rarr;</button>
       </form>
-    </div>
+    </div> 
     <div class="overlay hidden"></div>
 
-    <!-- <script src="script.js"></script> -->
+    
+    <script defer src="script.js"></script>
   </body>
 </html>
