@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -54,6 +54,7 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .score {
@@ -168,4 +169,60 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 780px) {
+  body {
+    width: 74rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 780px) {
+  main {
+    width: 50rem;
+    height: 55rem;
+  }
+  .player {
+    padding: 7rem 1rem;
+  }
+  .dice {
+    height: 7rem;
+  }
+  .btn--new {
+    top: 1rem;
+  }
+  .btn--roll {
+    top: 25.3rem;
+  }
+  .btn--hold {
+    top: 33.1rem;
+  }
+  .current {
+    padding: 1rem;
+    width: fit-content;
+  }
+  .current-score,
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  main {
+    width: 35rem;
+    /* height: 45rem; */
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
 }
