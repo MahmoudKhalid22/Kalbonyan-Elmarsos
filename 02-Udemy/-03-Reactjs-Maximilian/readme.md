@@ -26,7 +26,8 @@
 ### Section 8-9 Project
 
 - [Project-code](./Projects/section-8-9-project)
-- [Live Demo](https://sec-8-9-mkhalid.netlify.app/)
+- [Live Demo](https://investment-calculator-app.netlify.app/)
+- [Live Demo](https://addusernameage.netlify.app/)
 
 ### Login-app (S10)
 
